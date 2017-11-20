@@ -139,27 +139,11 @@ if(!$info_admin){?>
     if($dbtype == "mysql" )
           show_mysql_tables($condata, $a, $b);
     else
-	  $res=query_list_users($condata,"SELECT * FROM mdl_user ORDER BY id",$p,$pp);
+	  $res=query_list_users($condata,"SELECT * FROM mdl_user WHERE deleted<>1 ORDER BY id",$p,$pp);
 	  print_list_users($res,$idu);
   };
 $tp=(($res[$pp] / $pp) + 1);
 ?>
-<!--    <br/>
-<div class="row">
-<div class="col-md-4">
-    <p>Intervalo de exibição da lista:</p>
-    <form role="form" class="form-inline">
-      <div class="form-group">
-        <input type="text" class="form-control" size="2" id="inicio" name="start" value=<?php print $a; ?> /> 
-        <input type="text" class="form-control" size="2" id="fim" name="end" value=<?php print $b; ?> /> 
-	<input type="hidden" name="idu" value="<?php echo $idu;?>" />
-        <input type="submit" class="btn btn-info" name="btnSubmitData" value="Atualizar" />
-        <input action="action" class="btn btn-info" type="button" value="Voltar" onclick="history.go(-1);" />
-      </div>
-    </form>
-</div>
-</div>
--->
 <div class="row">
 <div class="col-md-4">
 </div>
