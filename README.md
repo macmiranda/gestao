@@ -1,4 +1,6 @@
 # Gestão de instâncias Moodle
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fmacmiranda%2Fgestao.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fmacmiranda%2Fgestao?ref=badge_shield)
+
 
 Esse software facilita a gestão de múltiplos sites Moodle hospedados no mesmo servidor web. A versão inicial é minimamente funcional mas provavelmente contém bugs. Contribuições são bem-vindas.
 
@@ -11,3 +13,7 @@ Esse software facilita a gestão de múltiplos sites Moodle hospedados no mesmo 
 1. Aponte o seu browser para http://seu.host.ou.ip/gestao/
 
 (english version soon!)
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fmacmiranda%2Fgestao.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fmacmiranda%2Fgestao?ref=badge_large)
